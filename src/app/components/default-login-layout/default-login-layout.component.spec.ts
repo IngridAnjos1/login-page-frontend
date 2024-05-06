@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DefaultLoginLayoutComponent } from './default-login-layout.component';
+import { DefaultLoginLayoutComponent } from './DefaultLoginLayoutComponent';
 
 describe('DefaultLoginLayoutComponent', () => {
   let component: DefaultLoginLayoutComponent;
@@ -10,8 +10,8 @@ describe('DefaultLoginLayoutComponent', () => {
     await TestBed.configureTestingModule({
       imports: [DefaultLoginLayoutComponent]
     })
-    .compileComponents();
-    
+      .compileComponents();
+
     fixture = TestBed.createComponent(DefaultLoginLayoutComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
